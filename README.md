@@ -12,11 +12,11 @@ Please install the following software on your computer:
 - Python 3 (version 3.8 or higher)
 - Python packages: pandas, numpy, scikit-learn, seaborn, matplotlib, notebook (or jupyterlab) 
 
-#### Installation of Python
+### Installation of Python
 
 Python can be downloaded and installed from https://www.python.org/downloads/.
 
-#### Installation of packages
+### Installation of packages
 
 One Python is installed, use `pip` to install packages with the following command:
 
@@ -32,3 +32,4 @@ conda install -c conda-forge notebook
 
 ## Step 1: Download session materials
 
+Please download the session materials from this repository on you computer.  
