@@ -34,7 +34,7 @@ conda install -c conda-forge notebook
 
 ## Step 1: Download session materials
 
-Please download the session materials from this Github repository on you computer. 
+Please download the session materials from this Github repository to you computer. 
 
 If you are familiar with `git`, you may use `git clone` command.
 
@@ -48,7 +48,7 @@ Otherwise, simply download the whole repository in one ZIP archive and then extr
 
 ![download repository](/images/git_download_marked.png)
 
-## Step 2: Check the presentation of machine learning for omics if necessary
+## Step 2: Check the presentations of machine learning for omics
 
 Be sure that you have already followed the regular class on machine learning for omics. If not, please watch first these videos which show a general machine learning pipeline and some common classification models.  
 
@@ -78,6 +78,6 @@ You can alternatively use *Jupyter Lab* which proposes a more complete web-based
 jupyter lab
 ```
 
-Please follow the instructions in the notebooks.
+Then follow the instructions in the notebooks.
 
 The solutions will be available later in this repository and also explained and commented in a video format (coming soon).
