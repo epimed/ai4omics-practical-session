@@ -32,9 +32,9 @@ conda install pandas numpy scikit-learn seaborn matplotlib
 conda install -c conda-forge notebook
 ```
 
-## Step 1: Download session materials
+## Step 1: Download the session materials
 
-Please download the session materials from this Github repository to you computer. 
+Please download the session materials from this Github repository to your computer. 
 
 If you are familiar with `git`, you may use `git clone` command.
 
@@ -60,17 +60,17 @@ Be sure that you have already followed the regular class on machine learning for
 
 [![Part2. Leukemia classification using machine learning](https://img.youtube.com/vi/u_47GUetPFA/0.jpg)](https://www.youtube.com/watch?v=u_47GUetPFA)
 
-## Step 3: Proceed to practical session
+## Step 3: Open the task 1
 
 We will use the data of colon cancer stored in `colon_cancer.csv` file in `data` directory, and the code of the exercises in `notebook` directory.
 
-To start, go to `notebook`directory on your computer and lunch *Jupyter Notebook* of the first exercise (task1):
+To start, go to `notebook`directory on your computer and load a *Jupyter Notebook* of the first exercise `task1.ipynb`:
 
 ```bash
 jupyter notebook task1.ipynb
 ```
 
-The task will normally be automatically loaded in the web browser at `http://localhost:8888/notebooks/task1.ipynb`. 
+The task 1 will be automatically loaded in the web browser at `http://localhost:8888/notebooks/task1.ipynb`. 
 
 You can alternatively use *Jupyter Lab* which proposes a more complete web-based user interface to manage several notebooks as well as other types of document (HTML, text, markdown etc.):
 
@@ -78,6 +78,13 @@ You can alternatively use *Jupyter Lab* which proposes a more complete web-based
 jupyter lab
 ```
 
-Then follow the instructions in the notebooks.
+Then follow the instructions in the notebook.
 
-The solutions will be available later in this repository and also explained and commented in a video format (coming soon).
+## Step 4: Open the task 2
+
+The second task is available in the file `task2.ipynb`.
+
+## Solutions of the exercises
+
+The solutions are available in this repository (please refer to the files `task*_solution.ipynb` or `task*_solution.pdf` in `notebook` folder) and also explained and commented in a video (coming soon).
+
