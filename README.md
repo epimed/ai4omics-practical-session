@@ -1,11 +1,17 @@
 # AI4Omics - Practical Session
-This session aims to provide you practical skills in machine learning applied to omics data.
+This practical session aims to provide you practical skills in machine learning applied to omics data. 
 
-In this lab, we will use **transcriptome data** (i. e. expression levels of genes) of colon normal and tumour samples. Our goal will be to create a machine learning **classification algorithm** to predict whether a sample of colon tissue is normal or tumoral from its gene expression profile.
+We will use Python programming language with a machine learning framework `scikit-learn`. The exercises will be present in a format of Jupyter notebooks. If you are not familiar with these technologies, all instructions of installation and use will be provided. The session is adapted for beginners.
 
-The lab is performed using **Python** programming language and **scikit-learn** package.
+In this lab, we will use **transcriptome data** (i. e. expression levels of genes) of colon normal and tumor samples. Our goal will be to create a machine learning **classification algorithm** to predict whether a sample of colon tissue is normal or a tumor from its gene expression profile.
 
-To follow the exercises you don't need to have a deep knowledge of Python. The session is adapted for beginners. Nevertheless, you are supposed to have some general programming skills for data analysis, not necessary with Python.  
+The practical session is composed of **two main tasks**. The first task (Task 1) aims to introduce you to a basic machine learning pipeline and to show how to create a simple classifier. In the second task (Task 2), you will be invited to create a logistic regression classification model for cancer diagnosis using omics data. The solutions for all the exercises will be available.
+
+## Presentation of the practical session
+
+Please watch the following video that presents the details of the practical session (9 min).
+
+[![Practical session for omics data analysis by machine learning with scikit-learn](https://img.youtube.com/vi/KEYpxSzTS54/0.jpg)](https://youtu.be/KEYpxSzTS54)
 
 ## Prerequisites before we start  
 
@@ -32,7 +38,7 @@ conda install pandas numpy scikit-learn seaborn matplotlib
 conda install -c conda-forge notebook
 ```
 
-## Step 1: Download the session materials
+### Download the session materials
 
 Please download the session materials from this Github repository to your computer. 
 
@@ -48,23 +54,12 @@ Otherwise, simply download the whole repository in one ZIP archive and then extr
 
 ![download repository](/images/git_download_marked.png)
 
-## Step 2: Check the presentations of machine learning for omics
 
-Be sure that you have already followed the regular class on machine learning for omics. If not, please watch first these videos which show a general machine learning pipeline and some common classification models.  
-
-##### Part 1. Main challenges of machine learning for omics (19 min)
-
-[![Part 1. Main challenges of machine learning for omics](https://img.youtube.com/vi/1C26bgWfsw4/0.jpg)](https://www.youtube.com/watch?v=1C26bgWfsw4)
-
-##### Part 2. Example of leukemia classification using machine learning (17 min)
-
-[![Part2. Leukemia classification using machine learning](https://img.youtube.com/vi/u_47GUetPFA/0.jpg)](https://www.youtube.com/watch?v=u_47GUetPFA)
-
-## Step 3: Open the task 1
+### Start a Jupyter notebook of the Task 1
 
 We will use the data of colon cancer stored in `colon_cancer.csv` file in `data` directory, and the code of the exercises in `notebook` directory.
 
-To start, go to `notebook`directory on your computer and load a *Jupyter Notebook* of the first exercise `task1.ipynb`:
+To start, go to `notebook` directory on your computer and load a *Jupyter Notebook* of the first exercise `task1.ipynb`:
 
 ```bash
 jupyter notebook task1.ipynb
@@ -78,13 +73,22 @@ You can alternatively use *Jupyter Lab* which proposes a more complete web-based
 jupyter lab
 ```
 
-Then follow the instructions in the notebook.
+## Task 1 - Basic Machine Learning Pipeline
 
-## Step 4: Open the task 2
+Follow the instructions in the notebook `task1.ipynb` and watch the video below with step-by-step explanations of the Task 1 (16 min).
+
+[![Task 1 - Basic machine learning pipeline with scikit-learn](https://img.youtube.com/vi/iRYuaHqV_o4/0.jpg)](https://youtu.be/iRYuaHqV_o4)
+
+The solution of the Task 1 is also available in `task1_solution.ipynb` and  `task1_solution.pdf`.
+
+## Task 2 - Logistic Regression Classifier
 
 The second task is available in the file `task2.ipynb`.
 
-## Solutions of the exercises
+Please following the instructions in the notebook and try to complete this task by yourself.
 
-The solutions are available in this repository (please refer to the files `task*_solution.ipynb` or `task*_solution.pdf` in `notebook` folder) and also explained and commented in a video (coming soon).
+You can check the solution of the Task 2 with step-by-step explanations and comments in the video below (16 min).
 
+[![Task 2 - Logistic regression with scikit-learn](https://img.youtube.com/vi/DlknLZvPb5w/0.jpg)](https://youtu.be/DlknLZvPb5w)
+
+The solution of the Task 2 is also available in `task2_solution.ipynb` and `task2_solution.pdf`.
