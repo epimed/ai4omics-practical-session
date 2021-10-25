@@ -48,8 +48,6 @@ If you are familiar with `git`, you may use `git clone` command.
 git clone https://github.com/epimed/ai4omics-practical-session.git
 ```
 
-![git clone repository](/images/git_clone.png)
-
 Otherwise, simply download the whole repository in one ZIP archive and then extract the content to your working directory. 
 
 ![download repository](/images/git_download_marked.png)
@@ -85,7 +83,7 @@ The solution of the Task 1 is also available in `task1_solution.ipynb` and  `tas
 
 The second task is available in the file `task2.ipynb`.
 
-Please following the instructions in the notebook and try to complete this task by yourself.
+Please follow the instructions in the notebook and perform the exercises.
 
 You can check the solution of the Task 2 with step-by-step explanations and comments in the video below (16 min).
 
