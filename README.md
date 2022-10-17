@@ -24,9 +24,9 @@ Please install the following software on your computer:
 
 Python can be downloaded and installed from https://www.python.org/downloads/.
 
-### Installation of packages
+### Installation of the packages
 
-Use `pip` to install packages with the following command:
+Use `pip` to install the packages with the following command:
 
 ```bash
 pip install pandas numpy scikit-learn seaborn matplotlib notebook
@@ -37,6 +37,7 @@ If you have already *Anaconda* or *Miniconda*, use `conda` command instead of `p
 conda install pandas numpy scikit-learn seaborn matplotlib
 conda install -c conda-forge notebook
 ```
+Depending on your configuration you may be asked to install Microsoft Visual C++ before the installation of packages.
 
 ### Download the session materials
 
