@@ -1,0 +1,12 @@
+name: ai4omics-practical-session
+channels:
+  - defaults
+dependencies:
+  - python=3.11.4
+  - numpy
+  - notebook
+  - seaborn
+  - pandas
+  - jupyterlab
+  - scikit-learn
+  - matplotlib

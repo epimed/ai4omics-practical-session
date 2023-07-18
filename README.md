@@ -17,7 +17,7 @@ Please watch the following video that presents the details of the practical sess
 
 Please install the following software on your computer:
 
-- Python 3 (version 3.8 or higher)
+- Python 3 (version 3.9 or higher)
 - Python packages: pandas, numpy, scikit-learn, seaborn, matplotlib, notebook (or jupyterlab) 
 
 ### Installation of Python
